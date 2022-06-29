@@ -16,7 +16,7 @@ class GoogleButtonManager extends StatelessWidget {
       child: MaterialButton(
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(5),
-              side: const BorderSide(color: Colors.blue,width: 1.5),
+              side: const BorderSide(color: Colors.blue,width: 1),
           ),
           padding:  const EdgeInsets.symmetric(
               vertical: 15

@@ -1,5 +1,5 @@
 import 'package:algoriza_intern_task1/presentation/screens/login_screen/loginscreen.dart';
-import 'package:algoriza_intern_task1/presentation/screens/on_boarding/onboarding.dart';
+import 'package:algoriza_intern_task1/presentation/screens/onboarding_screen/onboarding.dart';
 import 'package:algoriza_intern_task1/presentation/screens/register_screen/registerscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:  RegisterScreen(),
+      home: OnBoarding(),
     );
   }
 }
